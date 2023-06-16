@@ -1,0 +1,75 @@
+.headerContainer {
+    color: #f2f2f2;
+    bottom: 0 !important;
+    background: #005F73;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .headerPrimaryRow{
+        width: 200px;
+        padding: 5px 20px;
+        .buttonColumn{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .loginButton, .registerButton {
+                font-size: 20px;
+                font-weight: bold;
+                outline: none;
+                cursor: pointer;
+                background-color: transparent;
+                border: none;
+                color: #f2f2f2;
+                text-decoration: none;
+            }
+        } 
+        .welcomeMessage{
+            p{
+                font-size: 15px;
+                font-weight: bold;
+                color: #f2f2f2;
+                margin: 3px!important;
+            }
+        }      
+    }
+    .headerSecondaryRow{
+        // width: 200px;
+        padding: 5px 20px;
+        .buttonColumn{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .loginButton, .registerButton {
+                font-size: 20px;
+                font-weight: bold;
+                outline: none;
+                cursor: pointer;
+                background-color: transparent;
+                border: none;
+                color: #f2f2f2;
+                text-decoration: none;
+            }
+        } 
+        .logoutButtonContainer{
+            text-align: right;
+            .logoutText{
+                font-size: 15px;
+                font-weight: bold;
+                color: #f2f2f2;
+                margin: 3px!important;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+        .welcomeMessage{
+            p{
+                font-size: 15px;
+                font-weight: bold;
+                color: #f2f2f2;
+                margin: 3px!important;
+            }
+        }      
+    }
+}
